@@ -22,12 +22,12 @@
 
   <groupId>com.github.yuiskw.google</groupId>
   <artifactId>google-log-aggregator-example</artifactId>
-  <version>0.1</version>
+  <version>0.2</version>
 
   <packaging>jar</packaging>
 
   <properties>
-    <beam.version>2.0.0</beam.version>
+    <beam.version>0.6.0</beam.version>
     <surefire-plugin.version>2.20</surefire-plugin.version>
   </properties>
 
