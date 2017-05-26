@@ -70,7 +70,7 @@ The following command enables us to run a log aggregating job on Google Dataflow
 ```
 mvn compile exec:java -Dexec.mainClass=com.github.yuiskw.google.LogAggregator \
     -Dexec.args="--runner=DataflowRunner \
-    --project=sage-shard-740 \
+    --project=<gcp-project-id> \
     --gcpTempLocation=gs://<your-gcs-bucket>/tmp \
     --inputPubsubSubscription=<subscription> \
     --outputBigQueryDataset=<dataset-id>
