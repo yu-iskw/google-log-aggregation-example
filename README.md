@@ -1,5 +1,7 @@
 # Real-Time Log Aggregation on Google Cloud Example
 
+[![Build Status](https://travis-ci.org/yu-iskw/google-log-aggregation-example.svg?branch=master)](https://travis-ci.org/yu-iskw/google-log-aggregation-example)
+
 This is an example of real-time log aggregation with Google Pub/Sub, Google Dataflow/Apache Beam, and Google BigQuery.
 When I started learning Google Dataflow/Apache Beam, it is a little difficult to find a way to aggregate logs to date partitioned BigQuery table.
 In this repository, I would like to show a solution to realize writing logs to date partitioned BigQuery tables.
