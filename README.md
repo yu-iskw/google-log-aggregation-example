@@ -1,5 +1,6 @@
 # Real-Time Log Aggregation on Google Cloud Example
 
+[![License](http://img.shields.io/:license-Apache%202-red.svg)](http://www.apache.org/licenses/LICENSE-2.0.txt)
 [![Build Status](https://travis-ci.org/yu-iskw/google-log-aggregation-example.svg?branch=master)](https://travis-ci.org/yu-iskw/google-log-aggregation-example)
 
 This is an example of real-time log aggregation with Google Pub/Sub, Google Dataflow/Apache Beam, and Google BigQuery.
